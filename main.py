@@ -9,5 +9,6 @@ while True:
     # Check for all events
     for events in pygame.event.get():
         if events.type == pygame.QUIT:
+            print("Quitting...")
             pygame.quit()  # Close window
             quit()  # end pygame
